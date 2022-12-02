@@ -1,0 +1,15 @@
+.ant-modal-title {
+}
+.ant-modal-header {
+}
+
+.ant-modal-body .ant-form {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid #f0f0f0;
+  padding: 24px 0 0 0;
+}
+
+.ant-modal-body .ant-form-item-label {
+  color: #5c6b77;
+  font-weight: bold;
+}

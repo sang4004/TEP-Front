@@ -1,0 +1,1 @@
+(this.webpackJsonppop_fe=this.webpackJsonppop_fe||[]).push([[66],{1697:function(t,e,s){"use strict";s.r(e);var a=s(526),c=s(162),o=(s(0),s(1)),p=Object(c.a)({root:{padding:24}});e.default=function(){var t=p();return Object(o.jsx)("div",{className:t.root,children:Object(o.jsx)(a.a,{})})}}}]);

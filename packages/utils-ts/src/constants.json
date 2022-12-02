@@ -1,0 +1,575 @@
+{
+    "ID_MIN_LENGTH" : 3,
+    "PW_MIN_LENGTH" : 3,
+    "NAVIGATION_FOR_DASHBOARD" : [
+        {
+            "id" : "dashboard",
+            "title" : "선일다이파스\n종합 상황실",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/dashboard",
+            "necessary" : ["dashboard"]
+        },
+        {
+            "id" : "production",
+            "title" : "선일다이파스\n[생산]",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/production",
+            "necessary" : ["production"]
+        },
+        {
+            "id" : "productblock",
+            "title" : "선일다이파스\n[생산블럭단위-일]",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/productblock",
+            "necessary" : ["productblock"]
+        },
+        {
+            "id": "productcheck",
+            "title": "선일다이파스\n[품질]",
+            "type": "item",
+            "icon": "equalizer",
+            "url": "/productcheck",
+            "necessary": ["productcheck"]
+        },
+        {
+            "id": "nowprog",
+            "title": "선일다이파스\n공정/블럭별\n통합 모니터링",
+            "type": "item",
+            "icon": "equalizer",
+            "url": "/nowprog",
+            "necessary": ["nowprog"]
+        },
+        {
+            "id": "nowmch",
+            "title": "선일다이파스\n설비 가동\n통합 모니터링",
+            "type": "item",
+            "icon": "equalizer",
+            "url": "/nowmch",
+            "necessary": ["nowmch"]
+        }
+    ],
+    "NAVIGATION_FOR_POP" : [
+        {
+            "id" : "workstat",
+            "title" : "작업지시현황",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/workstat",
+            "necessary" : ["workstat"]
+        },
+        {
+            "id" : "workregist",
+            "title" : "작업지시등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/workregist",
+            "necessary" : ["workhistory", "workinfo"]
+        },
+        {
+            "id" : "matpush",
+            "title" : "소재 투입",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/matpush",
+            "necessary" : ["matOriginInfo", "matSmallInfo", "matNewInfo", "matUsedInfo"]
+        },
+        {
+            "id" : "pfregist",
+            "title" : "실적 등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/pfregist",
+            "necessary" : []
+        },
+        {
+            "id" : "badregist",
+            "title" : "불량 등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/badregist",
+            "necessary" : []
+        },
+        {
+            "id" : "moldio",
+            "title" : "금형 입출고",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/moldio",
+            "necessary" : []
+        },
+        {
+            "id" : "flowchart",
+            "title" : "공정이동표 출력",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/flowchart",
+            "necessary" : []
+        },
+        {
+            "id" : "equipnop",
+            "title" : "설비 비가동",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/equipnop",
+            "necessary" : []
+        },
+        {
+            "id" : "selfinspect",
+            "title" : "자주 검사",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/selfinspect",
+            "necessary" : []
+        },
+        {
+            "id" : "labelprint",
+            "title" : "라벨출력",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/labelprint",
+            "necessary" : []
+        },
+        {
+            "id" : "packing",
+            "title" : "포장",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/packing",
+            "necessary" : []
+        },
+        {
+            "id" : "shipment",
+            "title" : "출하등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/shipment",
+            "necessary" : []
+        }
+    ],
+    "NAVIGATION_FOR_HDC_DOCUMENT" : [
+        {
+            "id": "digitalsignaturehome",
+            "title": " 메인화면",
+            "type": "item",
+            "url": "/dshome",
+            "necessary": ["dshome"]
+        },
+        {
+            "id": "signautre",
+            "title": "결재하기",
+            "type": "group",
+            "children": [
+                {
+                    "id": "filetemporary",
+                    "title": "작성 중(접수)",
+                    "type": "item",
+                    "url": "/fbtemporary",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "wait",
+                    "title": "진행 중",
+                    "type": "item",
+                    "url": "/dsrequest",
+                    "necessary": ["dsrequest"],
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "reject",
+                    "title": "반려",
+                    "type": "item",
+                    "url": "/dsreject",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "complete",
+                    "title": "결재완료",
+                    "type": "item",
+                    "url": "/dscomplete",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "filebox",
+            "title": "공문서함 (개인)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "filesent",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/fbsent/user",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "filereceive",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/fbrecieved/user",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "groupfilebox",
+            "title": "공문서함 (부서)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "groupfilesent",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/fbsent/group",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "groupfilerecieve",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/fbrecieved/group",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "normalfilebox",
+            "title": "일반문서함 (개인)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "generaldocsend",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/document/normallist/send",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "generaldocrecv",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/document/normallist/recv",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "normalgroupfilebox",
+            "title": "일반문서함 (부서)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "groupgeneraldocsend",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/document/normallist/groupsend",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "groupgeneraldocrecv",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/document/normallist/grouprecv",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "organization",
+            "title": "조직도",
+            "type": "group",
+            "children": null
+        },
+        {
+            "id": "addressbook",
+            "title": "주소록",
+            "type": "group",
+            "children" : [
+                {
+                    "id": "partab",
+                    "title": "주소록",
+                    "type": "item",
+                    "url": "/abpart"
+                }
+            ]
+        }
+    ],
+    "NAVIGATION_FOR_HDC" : [
+        {
+            "id": "digitalsignaturehome",
+            "title": " 메인화면",
+            "type": "item",
+            "url": "/dshome",
+            "necessary": ["dshome"]
+        },
+        {
+            "id": "signautre",
+            "title": "결재하기",
+            "type": "group",
+            "children": [
+                {
+                    "id": "filetemporary",
+                    "title": "작성 중(접수)",
+                    "type": "item",
+                    "url": "/fbtemporary",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "wait",
+                    "title": "진행 중",
+                    "type": "item",
+                    "url": "/dsrequest",
+                    "necessary": ["dsrequest"],
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "reject",
+                    "title": "반려",
+                    "type": "item",
+                    "url": "/dsreject",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "complete",
+                    "title": "결재완료",
+                    "type": "item",
+                    "url": "/dscomplete",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "filebox",
+            "title": "공문서함 (개인)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "filesent",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/fbsent/user",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "filerecieve",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/fbrecieved/user",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "groupfilebox",
+            "title": "공문서함 (부서)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "groupfilesent",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/fbsent/group",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "groupfilerecieve",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/fbrecieved/group",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "normalfilebox",
+            "title": "일반문서함 (개인)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "generaldocsend",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/document/normallist/send",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "generaldocrecv",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/document/normallist/recv",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "normalgroupfilebox",
+            "title": "일반문서함 (부서)",
+            "type": "group",
+            "children": [
+                {
+                    "id": "groupgeneraldocsend",
+                    "title": "발신함",
+                    "type": "item",
+                    "url": "/document/normallist/groupsend",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                },
+                {
+                    "id": "groupgeneraldocrecv",
+                    "title": "수신함",
+                    "type": "item",
+                    "url": "/document/normallist/grouprecv",
+                    "badge" : {
+                        "title": 0,
+                        "bg"   : "rgb(3, 155, 228)",
+                        "fg"   : "#FFFFFF"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "organization",
+            "title": "조직도",
+            "type": "group",
+            "children": null
+        }
+    ],
+    "NAVIGATION_FOR_HDC_EDMS" : [
+        {
+            "id": "edmshome",
+            "title": "메인화면",
+            "type": "item",
+            "url": "/edms/home"
+        }
+    ],
+    "NAVIGATION_FOR_GUEST" : [],
+    "ADMIN_LEVEL" : {
+        "1" : "Owner",
+        "2" : "Admin",
+        "3" : "User",
+        "4" : "Guest"
+    },
+    "EMPLOYEE_ROLE" : [
+        {
+            "value" : 1,
+            "label" : "매니저"
+        },
+        {
+            "label" : "대리",
+            "value" :  2
+        },
+        {
+            "label" : "팀장",
+            "value" :  3
+        },
+        {
+            "label" : "과장",
+            "value" :  4
+        },
+        {
+            "label" : "이사",
+            "value" :  5
+        },
+        {
+            "label" : "대표이사",
+            "value" :  6
+        }
+    ],
+    "HDC" : {
+        "MAIN_TOP_CARD_COUNT" : 4
+    }
+}

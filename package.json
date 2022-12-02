@@ -1,0 +1,36 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "3.22.1"
+  },
+  "dependencies": {
+    "tslib": "1.10.0",
+    "typescript": "^4.0.3",
+    "eslint": "^7.11.0",
+    "webpack": "4.44.2",
+    "babel-jest": "^26.6.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "start": "sh tswatch.sh & lerna run start --stream",
+    "tsc": "lerna run tsc --stream",
+    "tsc-watch": "lerna run watch --stream",
+    "watch": "sh tswatch.sh",
+    "watch_comp": "tsc -p ./packages/components",
+    "tsbuild": "sh tsbuild.sh",
+    "clean": "lerna clean",
+    "publish": "lerna publish",
+    "build": "lerna run build",
+    "start:dashboard": "sh tswatch.sh & cd ./packages/dashboard-app && npm start",
+    "start:pop": "lerna run --scope pop_fe start"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [      
+      "**/@material-ui/pickers**"
+    ]
+  }
+}

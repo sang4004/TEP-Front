@@ -1,0 +1,52 @@
+/******************************************************************************
+ * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
+ * Data modelings and methods used are assets of Moornmo Inc.                 *
+ ******************************************************************************/
+
+.appwrapper {
+    
+}
+
+.top-toolbar {
+    background-color: #1267B2;
+    height : 7em;
+}
+  
+.nav-appbar{
+    padding : 0 !important;
+    height : 7em !important;
+    background-color: white !important;
+}
+
+.toolbar-right-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 120px;
+    height : 100%;
+    background-color: white;
+}
+
+.toolbar-right-icon > img{
+    width : 70%;
+}
+
+.user-menu__btn{
+    padding-left: 0;
+    padding-right: 0 !important;
+}
+
+.user-menu__avatar{
+    width: 56px !important;
+    height : 56px !important;
+}
+
+.user-menu__text-name{
+    font-size: 1.2em;
+    color: white;
+}
+
+.user-menu__text-team{
+    font-size: 1em;
+    color: white;
+}

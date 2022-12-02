@@ -1,0 +1,135 @@
+{
+    "ID_MIN_LENGTH" : 3,
+    "PW_MIN_LENGTH" : 3,
+    "NAVIGATION_FOR_ADMIN" : [
+        {
+            "id" : "workstat",
+            "title" : "작업지시현황",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/workstat",
+            "necessary" : ["workstat"]
+        },
+        {
+            "id" : "workregist",
+            "title" : "작업지시등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/workregist",
+            "necessary" : ["workhistory", "workinfo"]
+        },
+        {
+            "id" : "matpush",
+            "title" : "소재 투입",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/matpush",
+            "necessary" : ["matOriginInfo", "matSmallInfo", "matNewInfo", "matUsedInfo"]
+        },
+        {
+            "id" : "pfregist",
+            "title" : "실적 등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/pfregist",
+            "necessary" : []
+        },
+        {
+            "id" : "badregist",
+            "title" : "불량 등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/badregist",
+            "necessary" : []
+        },
+        {
+            "id" : "moldio",
+            "title" : "금형 입출고",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/moldio",
+            "necessary" : []
+        },
+        {
+            "id" : "flowchart",
+            "title" : "공정이동표 출력",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/flowchart",
+            "necessary" : []
+        },
+        {
+            "id" : "equipnop",
+            "title" : "설비 비가동",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/equipnop",
+            "necessary" : []
+        },
+        {
+            "id" : "selfinspect",
+            "title" : "자주 검사",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/selfinspect",
+            "necessary" : []
+        },
+        {
+            "id" : "labelprint",
+            "title" : "라벨출력",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/labelprint",
+            "necessary" : []
+        },
+        {
+            "id" : "packing",
+            "title" : "포장",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/packing",
+            "necessary" : []
+        },
+        {
+            "id" : "shipment",
+            "title" : "출하등록",
+            "type"    : "item",
+            "icon"    : "equalizer",
+            "url" : "/shipment",
+            "necessary" : []
+        }
+    ],
+    "NAVIGATION_FOR_GUEST" : [],
+    "ADMIN_LEVEL" : {
+        "1" : "Owner",
+        "2" : "Admin",
+        "3" : "User",
+        "4" : "Guest"
+    },
+    "EMPLOYEE_ROLE" : [
+        {
+            "value" : 1,
+            "label" : "매니저"
+        },
+        {
+            "label" : "대리",
+            "value" :  2
+        },
+        {
+            "label" : "팀장",
+            "value" :  3
+        },
+        {
+            "label" : "과장",
+            "value" :  4
+        },
+        {
+            "label" : "이사",
+            "value" :  5
+        },
+        {
+            "label" : "대표이사",
+            "value" :  6
+        }
+    ]
+}
