@@ -1,4 +1,4 @@
-# MMS Monorepo
+# 
 
 > 항상 git pull 후에는 package.json 변경점이 있다면 "npm run bootstrap" 필요!
 
