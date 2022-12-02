@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    line-height: 160%;
+    font-style: inherit;
+}
+
+.form_wrapper {
+    font-family: "Noto Sans KR", sans-serif !important;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+
+.ynj_head_form {
+    box-sizing: border-box;
+    margin: 60px 3% 0px 3%;
+    width: 94%;
+}
+
+.form_wrapper > .ynj_head_form#doc_header {
+    box-sizing: border-box;
+    margin: 60px 6% 0px 6%;
+    width: 88%;
+}
+
+/* top sign 스타일 시작 */
+#doc_header_sign {
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+.doc_header_sign2 {
+    display: table;
+    border-collapse: collapse;
+    width: fit-content;
+    max-width: 825px;
+    height: fit-content;
+    float: right;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.SignText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25px;
+    min-width: 25px;
+    height: 120px;
+    float: left;
+    border: 1px solid #000000;
+    margin-left: -1px;
+    margin-top: -1px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+.SignHead {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    width: 100px;
+    min-width: 64px;
+    height: 120px;
+    float: left;
+    border: 1px solid #000000;
+    margin-top: -1px;
+    margin-left: -1px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.SignHead .name {
+    width: 100%;
+    flex: 1;
+    border-bottom: 1px solid #000000;
+}
+.SignHead .date {
+    height: 40px;
+    padding: 0 10%;
+    font-size: 0.9em;
+    border-top: 1px solid #000000;
+    white-space: pre-wrap;
+}
+.SignHead .imgdiv {
+    width: 100%;
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* top_title 스타일 시작 */
+.ynj_head_form_top {
+    width: 100%;
+}
+
+.ynj_head_form .ynj_head_form_top .top_div_title {
+    letter-spacing: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form_wrapper > .ynj_head_form .ynj_head_form_top .middle_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ynj_head_form .ynj_head_form_top .last_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_text_div {
+    display: flex;
+    width: 33%;
+}
+
+.info_title_text_email {
+    letter-spacing: 3px;
+}
+
+.info_title_text_user {
+    letter-spacing: 5px;
+}
+
+.info_title_text_margin {
+    margin-right: 15px;
+}
+
+/* top info 스타일 시작 */
+.ynj_head_form_info {
+    clear: both;
+    padding: 25px 0 5px 0;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    position: relative;
+}
+
+.ynj_info_div {
+    display: flex;
+}
+
+/* content 스타일 시작 */
+.ynj_form_container {
+    margin: 0 3%;
+    width: 94%;
+    box-sizing: border-box;
+}
+
+.form_wrapper > .ynj_form_container#doc_body {
+    margin: 0 6%;
+    width: 88%;
+    box-sizing: border-box;
+}
+
+.ynj_form_container .ynj_contents {
+    display: block;
+    min-height: 520px;
+    font-size: 16px;
+}
+
+.ynj_form_container .ynj_contents > p {
+    width: 100%;
+}
+
+.tag {
+    white-space: pre-line;
+}
+
+.top_div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ynj_info_title {
+    white-space: nowrap;
+    width: 75px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.ynj_info_title + p::before {
+    content: ":";
+    margin: 0 5px;
+}
+
+/* footer 스타일 시작 */
+.ynj_form_footer {
+    margin: 80px 3% 30px 3%;
+    width: 94%;
+    min-height: 100px;
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.ynj_form_sending {
+    width: 100%;
+    font-weight: 700;
+    display: block;
+    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.form_wrapper > .ynj_form_footer#doc_footer {
+    margin: 60px 6% 40px 6%;
+    width: 88%;
+    top: 1250px;
+    padding-top: 30px;
+}
+
+/* footer sign 스타일 시작 */
+
+#doc_footer_sign {
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sign_layout.ynj_form_key {
+    position: absolute;
+    z-index: 100;
+    width: 240px;
+    right: 265px;
+    bottom: 35px;
+    height: 240px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_regist_layout.ynj_form_key {
+    position: absolute;
+    z-index: 100;
+    width: 240px;
+    left: 170px;
+    bottom: 35px;
+    height: 240px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_sign.ynj_form_key#sign_user {
+    position: absolute;
+    width: 104px;
+    right: 200px;
+    bottom: 20px;
+}
+
+.form_wrapper > .ynj_form_footer > #doc_footer_sign > .user_sign.ynj_form_key#sign_user {
+    position: absolute;
+    width: 104px;
+    right: 135px;
+    bottom: -10px;
+}
+
+.sign_regist_bg {
+    width: 190px;
+    height: 190px;
+}
+
+.sign_regist_title {
+    position: absolute;
+    text-align: center;
+    color: #4644ff;
+    width: 180px;
+    top: 60px;
+    font-size: 1.2em;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+.sign_regist_date {
+    position: absolute;
+    text-align: center;
+    color: #4644ff;
+    width: 180px;
+    font-size: 1.2em;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+.sign_regist_comp {
+    position: absolute;
+    text-align: center;
+    color: #4644ff;
+    width: 180px;
+    bottom: 65px;
+    font-size: 1em;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+.sign_bg {
+    width: 190px;
+    height: 190px;
+}
+
+.sign_title {
+    position: absolute;
+    text-align: center;
+    color: #ff0000;
+    width: 180px;
+    top: 60px;
+    font-size: 1.2em;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+.sign_date {
+    position: absolute;
+    text-align: center;
+    color: #ff0000;
+    width: 180px;
+    font-size: 1.2em;
+    font-family: "Nanum Myeongjo", serif;
+}
+
+.sign_comp {
+    position: absolute;
+    text-align: center;
+    color: #ff0000;
+    width: 180px;
+    bottom: 65px;
+    font-size: 1em;
+    font-family: "Nanum Myeongjo", serif;
+}

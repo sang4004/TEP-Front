@@ -1,0 +1,182 @@
+.hanhwa_ec_form {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 50px;
+  }
+
+  .hanhwa_ec_form input {
+    border: none;
+    outline: none;
+  }
+
+  .hanhwa_ec_form .title {
+    margin-right: 10px;
+  }
+
+  .hanhwa_ec_form .title::after {
+    content: ": ";
+    display: inline-block;
+    color: #000;
+  }
+  .hanhwa_ec_form .title2 {
+    margin-right: 10px;
+  }
+
+  .hanhwa_ec_form .title2::after {
+    content: ": ";
+    display: inline-block;
+    color: #000;
+  }
+
+  .hanhwa_ec_form .logo {
+    width: 90%;
+    height: auto;
+    margin: 1% auto;
+  }
+
+  .hanhwa_ec_form .logo img{
+    margin: 0 auto;
+  }
+
+  .hanhwa_ec_form .contact {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  .hanhwa_ec_form .contact .emails {
+    left: 60px;
+    position: relative;
+  }
+
+  .hanhwa_ec_form .contact>div {
+    display: flex;
+    width: 33%;
+  }
+  
+
+  .hanhwa_ec_form .form_info {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+    padding: 10px 0;
+    border-top: 3px solid #000;
+    border-bottom: 3px double #000;
+  }
+
+  .hanhwa_ec_form .form_info>div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .hanhwa_ec_form .form_info>div p.title {
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  .hanhwa_ec_form .form_info>div>input {
+    display: block;
+  }
+
+  .hanhwa_ec_form .form_info>div.num {
+    width: 30%;
+
+  }
+  .hanhwa_ec_form .form_info>div.date{
+    width: 60%;
+    position: relative;
+    display : flex;
+    justify-content: flex-end;
+  }
+
+  .hanhwa_ec_form .form_info>div.reception .reference_select_inner,
+  .hanhwa_ec_form .form_info>div.reference .reference_select_inner {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .hanhwa_ec_form .form_info>div.reception .reference_select_inner .select,
+  .hanhwa_ec_form .form_info>div.reference .reference_select_inner .select {
+    width: 100%;
+  }
+
+  .hanhwa_ec_form .form_info>div.reception .select,
+  .hanhwa_ec_form .form_info>div.reference .select {
+    display: block;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+  }
+
+  .hanhwa_ec_form .form_contents {
+    display: block;
+    width: 100%;
+  }
+
+  .hanhwa_ec_form .form_contents::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  .hanhwa_ec_form .form_contents>p,
+  .hanhwa_ec_form .form_contents>div {
+    margin: 20px 0;
+  }
+
+  .hanhwa_ec_form .form_contents .docu_attachment {
+    margin: 40px 0;
+    display: flex;
+  }
+
+  .hanhwa_ec_form .form_contents .docu_attachment .attachment_title {
+    margin-right: 10px;
+  }
+
+  .hanhwa_ec_form .form_contents .docu_attachment .attachment_contents p {
+    margin-bottom: 5px;
+  }
+
+  .hanhwa_ec_form .form_contents .document_sending {
+    float: right;
+    display: inline-block;
+    width: 200px;
+  }
+
+  .hanhwa_ec_form .form_contents .document_sending p {
+    text-align: justify;
+    font-weight: bold;
+  }
+
+  .hanhwa_ec_form .form_contents .document_sending p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }
+
+  .hanhwa_ec_form .form_bottom {
+    border-top: 3px solid #000;
+    padding-top: 5px;
+    position: relative;
+  }
+
+  .hanhwa_ec_form .form_bottom>.company {
+    text-align: center;
+    position: absolute;
+    width: 20%;
+    left: 40%;
+  }
+
+  .hanhwa_ec_form .form_bottom>.form_size {
+    text-align: center;
+    position: absolute;
+    right: 0%;
+  }

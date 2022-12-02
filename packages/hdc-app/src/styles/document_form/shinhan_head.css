@@ -1,0 +1,300 @@
+* {
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    /* 부모의 글꼴을 상속받는다 */
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+    font-style: inherit;
+}
+
+.select,
+input {
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.hidden {
+    position: fixed;
+    left: -10000px;
+}
+
+.form_wrapper > .shinhan_head_form {
+    width: 88%;
+    margin: 0 6%;
+}
+
+.form_wrapper > .shinhan_head_form#doc_body {
+    min-height: 800px !important;
+}
+
+.form_wrapper > .shinhan_head_form#doc_header {
+    margin-top: 24px;
+}
+
+.form_wrapper > .shinhan_head_form#doc_footer {
+    top: 1260px;
+}
+
+.shinhan_head_form {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 94%;
+    margin: 50px;
+}
+
+.shinhan_head_form::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.shinhan_head_form .shinhan_head_top {
+    vertical-align: bottom;
+    display: flex;
+    height: 90px;
+    align-items: flex-end;
+}
+
+.shinhan_head_form .shinhan_head_top .title {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -10px;
+    width: 24%;
+}
+
+.shinhan_head_form .shinhan_head_top .title > img {
+    width: 100%;
+}
+
+.shinhan_head_form .select {
+    display: block;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.shinhan_head_form > .title {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.shinhan_head_form .shinhan_head_top_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90%;
+    font-size: 14px;
+    vertical-align: bottom;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.shinhan_head_form .shinhan_head_top_wrap .shinhan_head_address {
+    width: 100%;
+}
+
+.shinhan_head_form .shinhan_head_top_wrap .shinhan_head_website {
+    margin: 0 16px;
+}
+
+.shinhan_head_form .shinhan_head_top_wrap .shinhan_head_tel {
+    margin-right: 6px;
+}
+
+.shinhan_head_form .shinhan_head_top_wrap #tel_input {
+    margin-right: 6px;
+}
+
+.shinhan_head_form .shinhan_head_top_wrap #fax_input {
+    margin-right: 6px;
+}
+
+.shinhan_head_form .shinhan_head_top_wrap .shinhan_head_manager {
+    margin-right: 15px;
+    float: right;
+    display: flex;
+}
+
+.shinhan_head_form .shinhan_head_info {
+    clear: both;
+    padding: 10px 10px;
+    border-top: 8px solid #ccc;
+    border-bottom: 8px solid #ccc;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: relative;
+}
+
+.shinhan_head_form .shinhan_head_info > div {
+}
+
+.shinhan_head_form .shinhan_head_info input {
+    width: 75%;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info1 {
+    display: flex;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info1 .info_title {
+    margin-right: 10px;
+}
+.shinhan_head_form .shinhan_head_info .shinhan_head_info2 {
+    display: flex;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info2 .info_title {
+    margin-right: 10px;
+}
+.shinhan_head_form .shinhan_head_info .shinhan_head_info3 {
+    display: flex;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info3 .info_title {
+    margin-right: 10px;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info4 {
+    display: flex;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info4 .info_title {
+    margin-right: 10px;
+}
+.shinhan_head_form .shinhan_head_info .shinhan_head_info5 {
+    display: flex;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info5 .info_title {
+    margin-right: 10px;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info_num {
+    float: left;
+}
+
+.shinhan_head_form .shinhan_head_info .shinhan_head_info_date {
+    position: absolute;
+    right: 4px;
+    top: 10px;
+}
+
+.shinhan_head_form .shinhan_head_contents {
+    min-height: 800px;
+    font-size: 21px;
+}
+
+.shinhan_head_form .shinhan_head_contents > p {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.shinhan_head_form .down {
+    text-align: center;
+    letter-spacing: 15px;
+}
+
+.shinhan_head_form .down_contents {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.shinhan_head_form .down_contents p {
+    margin-bottom: 20px;
+}
+
+.shinhan_head_form .shinhan_head_table .shinhan_tr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shinhan_head_form .shinhan_head_table .shinhan_tr_content input {
+    height: 90px;
+}
+.shinhan_head_form .shinhan_head_table {
+    margin: 50px;
+}
+.shinhan_head_form .shinhan_head_table .shinhan_tr > * {
+    border: 1px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.shinhan_head_form .shinhan_head_table .shinhan_tr .company_title,
+.shinhan_head_form .shinhan_head_table .shinhan_tr .company_address,
+.shinhan_head_form .shinhan_head_table .shinhan_tr .company_ceo,
+.shinhan_head_form .shinhan_head_table .shinhan_tr .company_date,
+.shinhan_head_form .shinhan_head_table .shinhan_tr .company_remark {
+    border-bottom: none;
+}
+
+.shinhan_head_form .shinhan_head_contents_plus {
+    margin-top: 20px;
+}
+
+.shinhan_head_form .shinhan_head_sending {
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    font-size: 22px;
+    width: fit-content;
+}
+
+.shinhan_head_form .shinhan_head_sending > p {
+    width: 100%;
+    height: 50px;
+}
+
+.shinhan_head_form .shinhan_head_sending .p_company {
+    text-align: justify;
+    text-align-last: justify;
+    display: inline-block;
+    line-height: 1.8em;
+    letter-spacing: 2px;
+}
+
+.shinhan_head_form .shinhan_head_sending .p_user {
+    text-align: justify;
+    text-align-last: justify;
+    display: inline-block;
+    line-height: 1.8em;
+    margin-left: 7px;
+    letter-spacing: 14px;
+}
+
+.shinhan_head_form#doc_header {
+    margin: 60px 3% 0px 3%;
+}
+
+.shinhan_head_form#doc_footer {
+    margin: 100px 3% 60px 3%;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.shinhan_head_form#doc_body {
+    margin: 0 3% 0 3%;
+}

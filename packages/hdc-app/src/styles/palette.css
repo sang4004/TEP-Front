@@ -1,0 +1,88 @@
+/* theme 모든 클래스 앞에 */
+.theme-background_big {
+    background-color : #3E4854;
+}
+
+.theme-background_small {
+    background-color: #404B57;
+}
+
+.theme-background_sub_button {
+    background-color: #3CA2DD;
+}
+
+.theme-background_main_button {
+    background-color:  #FCC344;
+}
+
+.theme-background_card {
+    background-color : #FFFFFF;
+}
+
+.theme-background_chip {
+    background-color: #E9E8E9;
+}
+
+.theme-background_badge {
+    background-color: #525E8A;
+}
+
+.theme-color_chip {
+    color: #4D525D;
+}
+
+.theme-color_sub_button_text {
+    color: #FFFFFF;
+}
+
+.theme-color_main_button_text {
+    color: #1E1F23;
+}
+
+.theme-color_main_title {
+    color : #111827;
+}
+
+.theme-color_sub_title { 
+    color : #707FA5;
+}
+
+.theme-color_din_text {
+    color : #2E7D4D;
+}
+
+.theme-color-din_number {
+    color : #4CAF50;
+}
+
+.theme-color_drn_text {
+    color : #CA2828;
+}
+
+.theme-color_drn_number {
+    color : #F44336;
+}
+
+.theme-color_tm_text {
+    color : #F26C00;
+}
+
+.theme-color_tm_number {
+    color : #FF9800;
+}
+
+.theme-color_doc_text {
+    color : #2B65C0;
+}
+
+.theme-color_doc_number {
+    color : #2196F3;
+}
+
+.theme-background_main_button_hover {
+    background-color : #FAA11F;
+}
+
+.theme-background_sub_button_hover {
+    background-color : #3c87dd;
+}

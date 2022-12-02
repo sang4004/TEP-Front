@@ -1,0 +1,537 @@
+@import-normalize;
+
+@import "tailwind-base.css";
+@import "./document_form/tr.css";
+@import "./document_form/email.css";
+@import "./document_form/mom.css";
+@import "./document_form/humantec_form.css";
+@import "./document_form/hanwha_ec.css";
+@import "./document_form/shinhan_design.css";
+@import "./document_form/shinhan_head.css";
+@import "./document_form/htc.css";
+@import "./document_form/hanwha_work_form.css";
+@import "./document_form/ecopower.css";
+@import "./document_form/hanwha_ec_form2.css";
+@import "./document_form/general_form.css";
+@import "./document_form/offline_form.css";
+@import "./signmark.css";
+@import "./signhead.css";
+@import "./document_form/shinhantr.css";
+@import "./document_form/ynj_form.css";
+@import "./document_form/ynj_form2.css";
+
+body.no-animate *,
+body.no-animate *::before,
+body.no-animate *::after {
+    transition: none !important;
+    animation: none !important;
+}
+
+@font-face {
+    font-family: "NanumSquareRound";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Muli, Roboto, Helvetica Neue, Arial, sans-serif;
+    background-color: #121212;
+}
+
+p:empty:not(:focus)::before {
+    content: attr(data-placeholder);
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+
+h1,
+.h1 {
+    font-size: 24px;
+}
+
+h2,
+.h2 {
+    font-size: 20px;
+}
+
+h3,
+.h3 {
+    font-size: 16px;
+}
+
+h4,
+.h4 {
+    font-size: 15px;
+}
+
+h5,
+.h5 {
+    font-size: 13px;
+}
+
+h6,
+.h6 {
+    font-size: 12px;
+}
+
+.ps > .ps__rail-y,
+.ps > .ps__rail-x {
+    z-index: 99;
+}
+
+a[role="button"] {
+    text-decoration: none;
+}
+
+[role="tooltip"] {
+    z-index: 9999;
+}
+
+/* Medium Devices, Desktops Only */
+@media only screen and (min-width: 992px) {
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 14px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    ::-webkit-scrollbar:hover {
+        width: 8px;
+        height: 14px;
+        background-color: rgba(0, 0, 0, 0.06);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border: 2px solid transparent;
+        border-radius: 20px;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        border-radius: 20px;
+    }
+}
+
+form label {
+    z-index: 99;
+}
+
+@keyframes autofill {
+    0%,
+    100% {
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    animation-delay: 1s;
+    animation-name: autofill !important;
+    animation-fill-mode: both;
+    -webkit-box-shadow: 0 0 0 100px transparent inset !important;
+}
+
+:focus {
+    outline-color: transparent;
+}
+
+.k-treeview {
+    width: 100%;
+    font-size: 1.2em;
+}
+
+.form_wrapper {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.overflowAuto {
+    overflow: auto;
+    width: 100%;
+}
+
+#header_wrapper {
+    position: relative;
+}
+#offline_wrapper {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+.preview_pdf {
+    position: absolute;
+    display: flex;
+    height: fit-content;
+    font-size: 2em;
+    width: fit-content;
+    gap: 1em;
+    left: 5%;
+    top: 20px;
+}
+#pdf,
+#close {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: fit-content;
+}
+#pdf p,
+#close p {
+    width: fit-content;
+    white-space: nowrap;
+}
+#pdf img,
+#close img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+#doc_header {
+    /* position: relative; */
+}
+#doc_body table {
+    width: 100%;
+    border: 1px solid;
+}
+#doc_body tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#doc_body th,
+#doc_body td {
+    border: 1px solid;
+    flex: 1;
+    height: fit-content;
+}
+#doc_body th p,
+#doc_body td p {
+    width: 100%;
+    height: 2em;
+}
+#doc_footer {
+    position: relative;
+}
+.form_wrapper #doc_header {
+    margin-top: 0;
+}
+#doc_header_sign {
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+#doc_footer_sign {
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#doc_header_offsign {
+    width: 100%;
+    position: relative;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+#doc_footer_offsign {
+    width: 100%;
+    position: absolute;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#doc_body_offsign {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 1em;
+    flex: 1;
+}
+.form_wrapper > .asd {
+    position: fixed;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.form_wrapper > .asd > #doc_footer {
+    height: fit-content;
+    position: relative;
+}
+
+.form_wrapper > #doc_footer {
+    height: auto;
+    position: absolute;
+    margin: 0;
+}
+
+.form_wrapper > #doc_body {
+    white-space: pre-wrap;
+}
+
+.form_wrapper > #tr_footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.form_container > #doc_body {
+    white-space: pre-wrap;
+}
+
+pre,
+code {
+    font-family: none;
+    font-size: 1em;
+    line-height: 2em;
+}
+.ant-modal-mask {
+    z-index: 1400;
+}
+
+.ant-modal-wrap {
+    z-index: 1401;
+}
+
+.background-color-dark-green {
+    background-color: #fff;
+    color: #0f7038;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.color-light-black {
+    color: #666 !important;
+}
+
+.background-dark-sky-blue {
+    background-color: hsl(210, 60%, 60%) !important;
+}
+
+.background-sky-blue {
+    background-color: #e7ebf4 !important;
+}
+
+.background-light-green {
+    background-color: #c4d6d6 !important;
+}
+
+.background-color-white {
+    background-color: white !important;
+}
+
+.background-color-parent {
+    background-color: transparent;
+}
+
+.font-color-black {
+    color: #333;
+}
+
+/* .k-sorted {
+    background-color: hsl(210, 60%, 60%) !important;
+} */
+
+.k-grid th {
+    vertical-align: middle !important;
+}
+
+.pre-tag {
+    white-space: pre-wrap;
+}
+
+.align-center {
+    text-align: center !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.k-grid .k-grid-header-sticky {
+    border-right-width: 0 !important;
+}
+
+.border-color-black {
+    border-color: black !important;
+}
+
+.border-color-light-black {
+    border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.border-right-color-black::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 1px;
+    height: 101%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.k-editor-content table {
+    width: 100%;
+    border: 1px solid;
+}
+.k-editor-content tr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.k-editor-content th,
+.k-editor-content td {
+    border: 1px solid;
+    flex: 1;
+    height: fit-content;
+}
+.k-editor-content th p,
+.k-editor-content td p {
+    width: 100%;
+    height: 2em;
+}
+
+.k-editor-content ::-webkit-scrollbar {
+    width: 10px;
+}
+
+.k-editor-content ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.k-editor-content ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.k-editor-content ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* grid bottom radius */
+.k-grid-content,
+.k-grid-container {
+    /* border-radius: 0 0 10px 10px; */
+    background-color: transparent;
+    overflow-y: auto !important;
+}
+
+.k-grouping-header,
+.k-grouping-header-flex {
+    display: none !important;
+}
+
+.k-grid-header {
+    /* background-color: #EDEDED !important; */
+    display: flex;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.k-grid-container ::-webkit-scrollbar:hover {
+    background-color: #a8bbbf;
+}
+
+.k-grid-container ::-webkit-scrollbar-thumb {
+    background-color: #94999b !important;
+}
+
+.k-grid-container ::-webkit-scrollbar {
+    width: 14px !important;
+    background-color: #d6dee1 !important;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+.k-grid-content ::-webkit-scrollbar {
+    background-color: red;
+}
+
+.k-grid table {
+    width: auto !important;
+    border-color: rgba(0, 0, 0, 0.08) !important;
+    border-width: 1px !important;
+}
+
+.k-grid {
+    border-width: 0 !important;
+}
+
+.k-link {
+    font-size: 12px;
+    padding: 4px 5px !important;
+}
+
+.edms_document_treeview {
+    width: fit-content;
+}
+
+.padding-zero {
+    padding: 0 !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+#container_annotation_inkContainer {
+    display: none;
+}
+
+.k-grid td {
+    border-width: 0 0 1px 1px !important;
+    padding: 4px 8px !important;
+    font-size: 12px;
+}
+
+.form_wrapper#shinhan_tr {
+    align-items: flex-end;
+}
+
+@import "print.css";
+
+@import "tables.css";
+
+@import "prism.css";
+
+@import "tailwind.css";

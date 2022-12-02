@@ -1,0 +1,162 @@
+li {
+    list-style: none;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+input {
+    left: 30px;
+}
+.select,
+input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    left: 5px;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+
+/* email_form */
+.email_form#doc_header {
+    margin: 100px 5% 0 5%;
+}
+
+.email_form#doc_body {
+    margin: 0 5% 0 5%;
+}
+
+.email_form#doc_footer {
+    margin: 0 5% 100px 5%;
+    height: 100px;
+}
+
+.email {
+    font-size: 20px;
+}
+
+.email_form {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 1.4em;
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.email_form .email_manager {
+    margin: 20px 0 0 50px;
+}
+
+.email_form .email_manager .li div {
+    width: max-content;
+}
+
+.email_form .email_manager .li div input {
+    width: max-content;
+    min-width: 300px;
+}
+
+.email_form .email_manager .li input {
+    width: max-content;
+    min-width: 300px;
+}
+
+.email_form .email_manager .li {
+    display: flex;
+    border-bottom: 1px solid black;
+    width: max-content;
+}
+
+.email_form .email_manager .li .email_manager_title {
+    margin-right: 20px;
+    width: fit-content;
+}
+
+.email_form .email_manager .li .select_reception_manager1 {
+    display: block;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.email_form .email_manager .li .select_sent_manager {
+    display: block;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+.email_form .email_info {
+    width: 90%;
+    margin: 50px;
+}
+
+.email_form .email_info > div {
+    display: flex;
+}
+
+.email_form .email_info > div > div {
+    border: 1px solid #000;
+    margin-top: -1px;
+    margin-left: -1px;
+    padding-right: 1px;
+    font-weight: 400;
+}
+
+.email_form .email_info .info > p {
+    width: 100%;
+}
+
+/* .email_form .email_info {
+  width : max-content;
+} */
+
+.email_form .email_info > div .info_title {
+    width: 140px;
+    background: #ccc;
+    text-align: center;
+}
+
+.email_form .email_info > div .info {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.email_form .email_info > div .info div {
+    margin-right: 10px;
+}
+
+.email_form .email_info > div .info .buisness_title {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.email_form .email_info > div .info .buisness_title {
+    flex: 1;
+}
+
+.email_form .email_info > div .info .buisness_title p {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.email_form .email_contents {
+    display: block;
+    width: 100%;
+    margin: 50px 100px;
+}

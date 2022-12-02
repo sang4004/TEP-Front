@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16.75" height="12.813" viewBox="0 0 16.75 12.813">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#dbe7e8"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_awesome-folder" data-name="Icon awesome-folder" d="M14.273,6.469H8.367L6.4,4.5H1.477A1.477,1.477,0,0,0,0,5.977v8.859a1.477,1.477,0,0,0,1.477,1.477h12.8a1.477,1.477,0,0,0,1.477-1.477V7.945A1.477,1.477,0,0,0,14.273,6.469Z" transform="translate(0.5 -4)" stroke="#9a9a9a" stroke-width="1" fill="url(#linear-gradient)"/>
+</svg>

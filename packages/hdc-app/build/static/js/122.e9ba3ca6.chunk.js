@@ -1,0 +1,1 @@
+(this.webpackJsonphdc_app=this.webpackJsonphdc_app||[]).push([[122],{1995:function(a,e,t){"use strict";t.r(e);var n=t(639),c=t(1287),p=t(0),r=t.n(p),s=Object(c.a)({root:{padding:24}});e.default=function(){var a=s();return r.a.createElement("div",{className:a.root},r.a.createElement(n.a,null))}}}]);

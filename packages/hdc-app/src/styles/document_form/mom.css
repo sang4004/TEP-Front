@@ -1,0 +1,176 @@
+.mom_form#doc_header{
+  margin : 50px 50px 0 50px;
+}
+
+.mom_form#doc_body{
+  margin : 0 50px 0 50px;
+}
+
+.mom_form#doc_footer{
+  margin : 50px 50px 50px 50px;
+  height: 100px;
+}
+
+.mom_form{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  width: 90%;
+  padding: 0;
+}
+
+.mom_form .mom {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mom_form .mom strong {
+  font-size: 24px;
+}
+
+.mom_form .mom strong span{
+  font-size: 40px;
+}
+
+.mom_form .document_title {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.mom_form .meeting_info {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mom_form .meeting_info .li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  height: 32px;
+  position: relative;
+}
+
+.li .colon{
+  position: absolute;
+  left: 120px;
+}
+
+.mom_form .meeting_info .li p {
+  display: block;
+  flex: 1;
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.mom_form .meeting_info .li input {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+
+.meeting_info_title {
+  width: 120px !important;
+  text-transform: uppercase;
+}
+
+.mom_form .meeting_info .li.date,
+.mom_form .meeting_info .li.location {
+  width: 50%;
+}
+
+.mom_form .table {
+  width: 100%;
+}
+
+.mom_form .table .tr {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  color: #000;
+  font-weight: normal;
+}
+
+.mom_form .table .tr .th{
+  padding: 4px;
+  font-size: 1em;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mom_form .table .tr .td{
+  padding : 0 4px 0 4px;
+  font-size: .9em;
+  font-weight: 400;
+}
+
+.mom_form .table .tr .th:nth-of-type(1),
+.mom_form .table .tr .td:nth-of-type(1) {
+  width: 8%;
+}
+
+.mom_form .table .tr .th:nth-of-type(2),
+.mom_form .table .tr .td:nth-of-type(2) {
+  width: 70%;
+}
+
+.mom_form .table .tr .th:nth-of-type(3),
+.mom_form .table .tr .td:nth-of-type(3) {
+  width: 11%;
+}
+
+.mom_form .table .tr .th:nth-of-type(4),
+.mom_form .table .tr .td:nth-of-type(4) {
+  width: 11%;
+}
+
+.mom_form .table .tr .th p,
+.mom_form .table .tr .td p {
+  width: 100%;
+}
+
+.mom_form .table .tr .th {
+  text-align: center;
+}
+
+.mom_form .table .tr .td.no p {
+  text-align: center;
+}
+
+input{
+  margin-left: 5px;
+}
+
+.table{
+  border-left: 1px solid #000;
+}
+
+.table .tr .td,
+.table .tr .th{
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.meeting_info .li{
+  border-bottom: 1px solid #000;
+}
+
+.meeting_info{
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.left, .right{
+  width: 50%;
+}

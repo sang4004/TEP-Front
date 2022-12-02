@@ -1,0 +1,297 @@
+* {
+
+  word-break: keep-all;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  /* 부모의 글꼴을 상속받는다 */
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: inherit;
+  font-style: inherit;
+}
+
+.select,
+input {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.form_wrapper > .hanwha_ec_form2{
+  width: 91%;
+  margin : 0 5.5%;
+}
+
+.form_wrapper > .hanwha_ec_form2#doc_body {
+  min-height: none !important;
+}
+
+.form_wrapper > .hanwha_ec_form2#doc_header{
+  margin-top: 50px;
+}
+
+.form_wrapper > .hanwha_ec_form2#doc_footer{
+  top: 1240px;
+}
+
+.hanwha_line>p{
+  height: 10px;
+}
+
+.hidden {
+  position: fixed;
+  left: -10000px;
+}
+
+.hanwha_ec_form2 {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+  color: #000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  box-sizing: border-box;
+  width: 94%;
+  margin : 50px;
+}
+
+.hanwha_ec_form2 input {
+  border: none;
+  outline: none;
+}
+
+.hanwha_ec_form2 .title {
+  margin-right: 5px;
+}
+
+.hanwha_ec_form2 .title::after {
+  content: ": ";
+  display: inline-block;
+  color: #000;
+}
+
+.hanwha_ec_form2 .logo {
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 16px;
+
+}
+
+.hanwha_ec_form2 .logo> p {
+  height:70px;
+  width: 160px;
+}
+
+.hanwha_ec_form2 .logo2 {
+  float: right;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+
+.hanwha_ec_form2 .contact {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  flex-wrap: wrap;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.hanwha_ec_form2 .contact .hanwha_address {
+  width: 100%;
+}
+
+.hanwha_ec_form2 .contact>div {
+  display: flex;
+  margin: 5px 0;
+  margin-right: 5%;
+  height: 20px;
+}
+
+.hanwha_ec_form2 .contact>div .contact_title {
+  margin-right: 10px;
+}
+
+.hanwha_ec_form2 .hanwha_line {
+  margin-top: 40px;
+}
+
+.hanwha_ec_form2 .hanwha_line img {
+  display: block;
+  width: 100%;
+}
+
+.hanwha_ec_form2 .form_info {
+  margin-bottom: 5px;
+  padding: 0 4px;
+  padding-top: 0;
+  border-bottom: 2px solid #ccc;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+.hanwha_ec_form2 .form_info .title{
+  white-space: break-spaces;
+  margin-right: 30px;
+}
+
+.hanwha_ec_form2 .form_info>div>div{
+  flex: 1;
+  display: flex;
+}
+
+.hanwha_ec_form2 .form_info>div {
+  display: flex;
+  margin: 20px 0;
+}
+
+.hanwha_ec_form2 .form_info>div.num {
+  float: left;
+}
+
+.hanwha_ec_form2 .form_info>div.date {
+  float: right;
+}
+
+.hanwha_ec_form2 .form_info>div p.title {
+ 
+  text-align: justify;
+}
+
+.hanwha_ec_form2 .form_info>div>input {
+  display: block;
+  flex: 1;
+}
+
+.hanwha_ec_form2 .form_info>div.reception,
+.hanwha_ec_form2 .form_info>div.reference,
+.hanwha_ec_form2 .form_info>div.docu_title {
+  clear: both;
+}
+
+.hanwha_ec_form2 .form_info>div.reception .reference_select_inner,
+.hanwha_ec_form2 .form_info>div.reference .reference_select_inner {
+  flex: 1;
+  display: flex;
+}
+
+.hanwha_ec_form2 .form_info>div.reception .select,
+.hanwha_ec_form2 .form_info>div.reference .select {
+  display: block;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.hanwha_ec_form2 .form_contents {
+  display: block;
+  width: 100%;
+  padding: 0 5%;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.hanwha_ec_form2 .form_contents::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.hanwha_ec_form2 .form_contents>p,
+.hanwha_ec_form2 .form_contents>div {
+  margin: 20px 0;
+}
+
+.hanwha_ec_form2 .form_contents .docu_attachment {
+  margin: 40px 0;
+  display: flex;
+}
+
+.hanwha_ec_form2 .form_contents .docu_attachment .attachment_title {
+  margin-right: 10px;
+}
+
+.hanwha_ec_form2 .form_contents .docu_attachment .attachment_contents p {
+  margin-bottom: 5px;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending {
+  float: right;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0 20px 0 0;
+  letter-spacing: .2em;
+  font-size: 20px;
+}
+.hanwha_ec_form2 .form_contents .document_sending> p {
+  height: 50px;
+  width : 100%;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending .place_spacing_1{
+  letter-spacing: 8.5px;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending .place_spacing_2{
+  letter-spacing: 12px;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending .place_spacing_3{
+  letter-spacing: 8.5px;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending .place_spacing_4{
+  letter-spacing: 4px;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending #stamp_input1{
+  text-align: justify;
+  text-align-last: justify;
+  padding-right: 18px;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending #stamp_input2{
+  text-align: justify;
+  text-align-last: justify;
+  padding-right: 18px;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending #stamp_input3{
+  letter-spacing: 18px;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.hanwha_ec_form2 .form_contents .document_sending #stamp_input3_1{
+  letter-spacing: 24px;
+  text-align: justify;
+  text-align-last: justify;
+}
+
+.hanwha_ec_form2 .form_contents>p{
+  white-space: pre-wrap;
+}
+
+.hanwha_ec_form2#doc_header{
+  margin: 60px 3% 0px 3%;
+  padding : 0;
+}
+
+.hanwha_ec_form2#doc_footer{
+  margin: 80px 3% 60px 3%;
+}
+
+.hanwha_ec_form2#doc_body{
+  margin: 20px 3% 0 3%;
+  min-height : 640px;
+}

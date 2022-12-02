@@ -1,0 +1,78 @@
+html {
+    position: relative;
+  }
+
+  .select {
+    -webkit-appearance: none;
+  }
+
+  * {
+
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    /* 부모의 글꼴을 상속받는다 */
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+    font-style: inherit;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  .select,
+  input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .offline_form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 1em;
+  }
+
+  .offline_form .docu_box{
+    width: 100%;
+    display: flex;
+    gap: .4em;
+  }
+
+  .offline_form .docu_box .docu_title{
+    width: 120px;
+    font-size: 1.2em;
+    text-align: justify;
+    text-align-last: justify;
+  }
+
+  .offline_form .docu_box .docu{
+    flex: 1;
+    font-size: 1.2em;
+    letter-spacing: .2em;
+  }

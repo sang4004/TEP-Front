@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 12pt "Tahoma";
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.general_form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 100%;
+  min-height: 1500px;
+  background: white;
+  font-size: 20px;
+}
+
+.general_form .row {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  min-height: 1.2cm;
+  margin-bottom: 0.25cm;
+}
+
+.general_form .row .title_box {
+  height: auto;
+}
+
+.general_form .auto_height_row {
+  min-height: 1.2cm;
+}
+
+.general_form .auto_height_row .input_box {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 0.1cm 0.25cm;
+  box-sizing: border-box;
+  line-height: 160%;
+}
+
+.general_form .attachments_row {
+  height: auto;
+}
+
+.general_form .attachments_row .input_box {
+  display: block;
+}
+
+.general_form .attachments_row .input_box .attachments_list {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  margin: 0.15cm 0;
+  border-bottom: 1px solid #000;
+}
+
+.general_form .attachments_row .input_box .attachments_list .icon {
+  display: block;
+  width: 14px;
+  margin-right: 0.1cm;
+}
+
+.general_form .inner_list {
+  /* 수신자, 참조자 list class */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  padding: 4px 10px;
+  border: 1px solid #666;
+  border-radius: 20px;
+  margin: 8px;
+}
+
+.general_form .title_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background: #4490ff;
+  color: white;
+  border-radius: 5px;
+}
+
+.general_form .input_box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #AAA;
+  width: 79%;
+  height: auto;
+  padding: 0 0.25cm;
+}
+
+.general_form .second_row .input_box {
+  width: 28.5%;
+}
+
+.general_form .contents_row {
+  flex: 1;
+}
+
+.general_form .contents_row .input_box {
+  /* align-items: flex-start;
+  word-break: break-all; */
+}
+
+.general_form .last_row {
+  margin-bottom: 0;
+}
+
+.form_wrapper .general_form .contents_row .input_box .k-editor{
+  font-size: 1em;
+}

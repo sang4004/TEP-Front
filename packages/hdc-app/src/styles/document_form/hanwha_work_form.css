@@ -1,0 +1,190 @@
+* {
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    /* 부모의 글꼴을 상속받는다 */
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+    font-style: inherit;
+  }
+
+  .select,
+  input {
+    box-sizing: border-box;
+  }
+
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .hidden {
+    position: fixed;
+    left: -10000px;
+  }
+
+
+  .hanwha_work_form {
+    font-family: "Nanum Gothic", sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 50px;
+  }
+    
+  .hanhwa_work_form .logos{
+    width: 10%;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    /* align-content: center; */
+  }
+
+
+  .hanwha_work_form input {
+    border: none;
+    outline: none;
+  }
+
+  .hanwha_work_form .title {
+    margin-right: 5px;
+  }
+
+  .hanwha_work_form .title::after {
+    content: ": ";
+    display: inline-block;
+    color: #000;
+  }
+
+  .hanwha_work_form .logo {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .hanwha_work_form .hanwha_work_contact {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .hanwha_work_form .hanwha_work_contact .hanwha_work_address {
+    width: 40%;
+  }
+
+  .hanwha_work_form .hanwha_work_contact .hanwha_work_user,
+  .hanwha_work_form .hanwha_work_contact .hanwha_work_tel,
+  .hanwha_work_form .hanwha_work_contact .hanwha_work_fax {
+    margin-right: 30px;
+  }
+
+  .hanwha_work_form .form_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 10px 0;
+    border-top: 3px solid #ed5d1a;
+    border-bottom: 1px solid #000;
+  }
+
+  .hanwha_work_form .form_info>div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .hanwha_work_form .form_info>div p.title {
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  .hanwha_work_form .form_info>div>input {
+    display: block;
+  }
+
+  .hanhwa_work_form .form_info>div.num {
+    width: 30%;
+  }
+  .hanhwa_work_form .form_info>div.date{
+    width: 60%;
+    position: relative;
+    display : flex;
+    justify-content: flex-end;
+  }
+
+  .hanwha_work_form .form_info>div.reception .reference_select_inner,
+  .hanwha_work_form .form_info>div.reference .reference_select_inner {
+    flex: 1;
+  }
+
+  .hanwha_work_form .form_info>div.reception .reference_select_inner .select,
+  .hanwha_work_form .form_info>div.reference .reference_select_inner .select {
+    width: 100%;
+  }
+
+  .hanwha_work_form .form_info>div.reception .select,
+  .hanwha_work_form .form_info>div.reference .select {
+    display: block;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+  }
+
+  .hanwha_work_form .form_contents {
+    display: block;
+    width: 100%;
+  }
+
+  .hanwha_work_form .form_contents::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+
+  .hanwha_work_form .form_contents>p,
+  .hanwha_work_form .form_contents>div {
+    margin: 20px 0;
+  }
+
+  .hanwha_work_form .form_contents .docu_attachment {
+    margin: 40px 0;
+    display: flex;
+  }
+
+  .hanwha_work_form .form_contents .docu_attachment .attachment_title {
+    margin-right: 10px;
+  }
+
+  .hanwha_work_form .form_contents .docu_attachment .attachment_contents p {
+    margin-bottom: 5px;
+  }
+
+  .hanwha_work_form .form_contents .document_sending {
+    float: right;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+  }
+
+  .hanwha_work_form .form_contents .document_sending p {
+    text-align: justify;
+  }
+
+  .hanwha_work_form .form_contents .document_sending p::after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }

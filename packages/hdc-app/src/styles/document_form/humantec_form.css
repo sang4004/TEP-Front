@@ -1,0 +1,170 @@
+.select {
+    -webkit-appearance: none;
+  }
+  
+  * {
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    /* 부모의 글꼴을 상속받는다 */
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+    font-style: inherit;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  
+  .select,
+  input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .form_wrapper > .humantec_form {
+    width: 88%;
+    margin: 0 6%;
+  }
+
+  .form_wrapper > .humantec_form#doc_body {
+    min-height: none !important;
+  }
+  
+  .form_wrapper > .humantec_form#doc_header{
+    margin-top: 60px;
+  }
+
+  .form_wrapper > .humantec_form#doc_footer{
+    top: 1230px;
+    margin : 0 5% 0 5%;
+  }
+    
+  .humantec_form {
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+    width: 90%;
+    margin: 50px;
+  }
+  
+  .humantec_form .company_title {
+    margin-bottom: 50px;
+  }
+  
+  .humantec_form .company_title img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: auto;
+  }
+  
+  .humantec_form .htc_info {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #000;
+    font-size: 1.4em;
+  }
+
+  .humantec_form .htc_info .br {
+    width: 50px;
+  }
+  
+  .humantec_form .htc_info>div {
+    display: flex;
+  }
+  
+  .humantec_form .htc_info>div .title {
+    font-size: 1.1em;
+    width: fit-content;
+    letter-spacing: 26px;
+  }
+  
+  .humantec_form .htc_info>div .colon {
+    margin-right: 10px;
+  }
+  
+  .humantec_form .down {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .humantec_form .htc_bottom .htc_bottom {
+    font-size: 20px;
+  }
+  
+  .humantec_form .htc_bottom .htc_bottom_text {
+    font-size: 35px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+    border-bottom: 10px solid #000;
+  }
+
+  .humantec_form .hdc_contents p{
+    height: 30px;
+    background-color: aqua;
+  }
+
+  .humantec_form .htc_bottom .htc_bottom_text> p {
+    height: 50px;
+
+  }
+    .humantec_form .htc_bottom .htc_bottom_info .htc_bottom_text{
+      display: flex;
+      justify-content: space-between;
+      }
+  
+  .humantec_form .htc_bottom .htc_bottom_info .htc_bottom_manager {
+    display: flex;
+    justify-content: space-between;
+  }
+  .humantec_form .htc_bottom .htc_bottom_info .htc_bottom_manager> div {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .humantec_form .htc_bottom .htc_bottom_info>div {
+    display: flex;
+    font-size: 20px;
+  }
+  
+  .humantec_form .htc_bottom .htc_bottom_info>div>div {
+    margin: 0 5 0 5px;
+  }
+  .humantec_form .htc_copy{
+    letter-spacing: 0.2rem;
+    font-size: 14px;
+  }
+
+.humantec_form#doc_header{
+  margin : 100px 5% 0 5%;
+}
+
+.humantec_form#doc_body{
+  margin : 0 5% 0 5%;
+  min-height: 420px;
+}
+
+.humantec_form#doc_footer{
+  margin : 300px 5% 50px 5%;
+}

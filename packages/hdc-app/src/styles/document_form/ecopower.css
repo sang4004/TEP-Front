@@ -1,0 +1,198 @@
+html {
+    position: relative;
+  }
+
+  .select {
+    -webkit-appearance: none;
+  }
+
+  * {
+
+    word-break: keep-all;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    /* 부모의 글꼴을 상속받는다 */
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+    text-decoration: inherit;
+    font-style: inherit;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+
+  .select,
+  input {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .form_wrapper .ecopower_contents p {
+    min-height : 33px;
+  }
+
+  .form_wrapper > .ecopower_form{
+    width: 80%;
+    margin : 0 10%;
+  }
+
+  .form_wrapper > .ecopower_form#doc_body {
+    /* min-height: 780px; */
+  }
+
+  .form_wrapper > .ecopower_form#doc_header{
+    margin-top: 45px;
+  }
+
+  .form_wrapper > .ecopower_form#doc_footer{
+    height : auto;
+    position: absolute;
+    top: 1138px;
+    margin : 0;
+  }
+
+  .form_wrapper > .ecopower_form > .ecopower_contents > .contents_num {
+    letter-spacing: 0.001em;
+  }
+
+  .form_wrapper  .ecopower_form  .company_title {
+    margin-top : 100px !important;
+  }
+  
+  /* ecopower */
+  .ecopower_form {
+    width: 90%;
+    height: auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    box-sizing: border-box;
+    margin: 50px 5% 50px 5%;
+  }
+  
+  .ecopower_form .company_title {
+    width : 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+    letter-spacing: .05em;
+    margin-top: 50px;
+  }
+
+  .ecopower_form .ecopower_info {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c10000;
+    padding : 0 8px 4px 8px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .ecopower_form .ecopower_info>div {
+    display: flex;
+    height: auto;
+  }
+
+  .ecopower_form .ecopower_info>div>div:first-of-type {
+    margin-right: 10px;
+    white-space: pre;
+  }
+
+  .ecopower_form .ecopower_info>div #title_input {
+    display: block;
+    flex: 1;
+    font-weight: bold;
+  }
+
+  .ecopower_form .ecopower_contents {
+    display: block;
+    width: 100%;
+    /* height: 740px; */
+    height : auto;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size : 21px;
+  }
+
+  
+  .ecopower_sign {
+    padding: 20px 40px 80px 20px;
+    box-sizing: border-box;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ecopower_bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    border-top: 7px solid #A0A0A0;
+    font-size : 18px;
+  }
+  
+  .ecopower_num {
+    width : 100%;
+  }
+
+  .ecopower_num > #send_date_input {
+    min-width : 200px;
+    margin : 0 10px;
+  }
+
+  .ecopower_date {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .ecopower_bottom .ecopower_address {
+    width: 50%;
+  }
+
+  .ecopower_info .docu_box .docu_title{
+    display : flex;
+    align-items:baseline;
+    font-weight: 700;
+  }
+
+  .ecopower_sign .ecopower_writer {
+    width: fit-content;
+    font-size : 30px;
+    letter-spacing: .1em;
+    font-weight: 600;
+  }
+
+  .ecopower_form#doc_header{
+    margin: 125px 5% 0px 5%;
+  }
+
+  .ecopower_form#doc_footer{
+    margin: 40px 5% 20px 5%;
+  }
+
+  .ecopower_form#doc_body{
+    margin: 0 5% 0 5%;
+  }
