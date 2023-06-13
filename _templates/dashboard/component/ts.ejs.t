@@ -2,8 +2,6 @@
 to: packages/dashboard-app/src/components/<%=name%>/index.tsx
 ---
 /******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
  * <%=name%>/index.tsx
  * hooks :
     * useLocations 

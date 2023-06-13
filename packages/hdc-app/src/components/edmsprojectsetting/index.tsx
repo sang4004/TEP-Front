@@ -1,13 +1,10 @@
 /******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
  * edmsprojectsetting/index.tsx
  * hooks :
  * useLocations
  * components :
  * GridComponent
  * LoadingIndicatorComponent
- * last modify : jh.jeong@ilts.co.kr
  * 항상 첫번째에는 id : Primary Key 필요
  ******************************************************************************/
 // Library

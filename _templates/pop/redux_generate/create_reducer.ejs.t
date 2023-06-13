@@ -2,11 +2,6 @@
 to: packages/pop-fe/src/common/reducer/<%=action%>.tsx
 ---
 
-/******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
- ******************************************************************************/
-
 import { AnyAction } from "redux";
 import {
     EXAMPLE

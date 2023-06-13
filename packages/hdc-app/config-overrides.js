@@ -1,5 +1,4 @@
 /******************************************************************************
- * last modify : jh.jeong
  * customize-cra load
     - override : react-app-rewired 를 통해 설정을 덮어쓰는? 함수
     - useBabelRc : Babel 플러그인을 사용 하겠다는것을 정의

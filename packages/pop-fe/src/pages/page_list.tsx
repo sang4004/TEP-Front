@@ -1,11 +1,8 @@
 /******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
  * hooks :
     * useLocations 
  * components : 
     * 
- * last modify : jh.jeong
  * TO DO :  constants 네비게이션을 loop 하여 자동 route 생성 기능 추가
  ******************************************************************************/
 //Library

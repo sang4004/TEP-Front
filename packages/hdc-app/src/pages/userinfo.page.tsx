@@ -1,6 +1,4 @@
 /******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
  * Description
  * 해당 페이지는 유저의 정보를 보며 수정하는 페이지입니다.
  * 또한 관리자는 해당페이지에서 다른 유저들을 수정 할 수 있습니다.
@@ -8,7 +6,6 @@
  * useLocations
  * components :
  *
- * last modify : jh.jeong
  ******************************************************************************/
 //Library
 import React, { useState, useEffect, useContext, useRef, ChangeEvent } from "react";

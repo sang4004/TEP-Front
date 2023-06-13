@@ -1,11 +1,8 @@
 /******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
  * vpisexceluploadmodal/ index.tsx
  * hooks :
  *
  *
- * last modify : jh.jeong@ilts.co.kr
  * Description
  * VPIS 원본 파일을 업로드 하는 모달입니다.
  ******************************************************************************/

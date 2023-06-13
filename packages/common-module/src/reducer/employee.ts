@@ -1,8 +1,3 @@
-/******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
- ******************************************************************************/
-
 import { AnyAction } from "redux";
 import {
 	GET_EMPLOYEE,

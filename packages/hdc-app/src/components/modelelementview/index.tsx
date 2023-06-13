@@ -1,11 +1,8 @@
 /******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
  * modelelementview / index.tsx
  * hooks :
  *
  * desc : iModel Element View
- * last modify : jh.jeong@ilts.co.kr
  ******************************************************************************/
 // Library
 import { useSelector, useDispatch } from "react-redux"; // redux

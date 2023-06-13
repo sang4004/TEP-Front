@@ -1,8 +1,3 @@
-/******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
- ******************************************************************************/
-
 import React, {useState, useEffect} from 'react';
 import { Button as MButton , Typography } from "@material-ui/core";
 import { Modal, Button } from 'antd';

@@ -1,10 +1,7 @@
 /******************************************************************************
-	* Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
-	* Data modelings and methods used are assets of Moornmo Inc.                 *
 	* src/App.tsx
 	* actions : 
 		* set_data -> client data setting
-	* lasy modify : jh.jeong
 ******************************************************************************/
 // Library
 import React from "react";

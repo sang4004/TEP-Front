@@ -1,11 +1,8 @@
 /******************************************************************************
- * Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
- * Data modelings and methods used are assets of Moornmo Inc.                 *
  * loading_indicator/index.tsx
  * hooks :
     * useLocations 
     *
- * last modify : jh.jeong
  ******************************************************************************/
  
 import { useSelector, useDispatch } from "react-redux"; // redux

@@ -34,8 +34,6 @@
 4. 파일 상단 Description 규칙
 	```
 	/******************************************************************************
-	* Copyright (c) 2021. Moornmo Inc. Rights reserved.                          *
-	* Data modelings and methods used are assets of Moornmo Inc.                 *
 	* <%=name%>/index.tsx -> 파일명 ( index 일 경우 폴더명 추가 )
 	* hooks : -> 사용한 hooks 명세
 		* ex ) useLocations
